@@ -16,7 +16,7 @@ const Edit = () => {
           Array(textCount).fill(0).map(() => <AddText />)
         }
       </div>
-      <button className='rounded-md bg-indigo-600 py-1 my-5 px-4 font-semibold text-white hover:bg-indigo-500' onClick={() => setTextCount(textCount + 1)}>Edit</button>
+      <button className='rounded-md bg-indigo-600 py-1 my-5 px-4 font-semibold text-white hover:bg-indigo-500' onClick={() => setTextCount(textCount + 1)}>Add New Text</button>
       <button className='rounded-md bg-indigo-600 py-1 my-5 mx-4 px-4 font-semibold text-white hover:bg-indigo-500' onClick={() => exportComponentAsJPEG(memeRef)}>Save</button>
 
       <p className='text-xl font-bold font-helvetica pt-2 text-primary'>Double click on Text & Drag to Place it</p>
